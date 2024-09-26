@@ -45,7 +45,7 @@ const appMenuItems = <MenuItem>[
       link: '/ui-controls',
       icon: Icons.car_rental_outlined),
   MenuItem(
-      title: 'Tutorial - introduccion a la aplicacion',
+      title: 'Introduccion a la aplicacion',
       subTitle: 'pequeño tutorial introductorio',
       link: '/tutorial',
       icon: Icons.accessibility_new_outlined),
@@ -54,4 +54,9 @@ const appMenuItems = <MenuItem>[
       subTitle: 'listas infinitas y pull to refresh',
       link: '/infinite',
       icon: Icons.list_alt_rounded),
+  MenuItem(
+      title: 'Riverpod Counter',
+      subTitle: 'Introduccion a riverpod',
+      link: '/counter-river',
+      icon: Icons.add),
 ];
